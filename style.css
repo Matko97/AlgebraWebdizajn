@@ -119,7 +119,7 @@ header {
 
 .content1,
 .content2 {
-    height: 600px; 
+    height: 600px;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -335,9 +335,12 @@ td {
         display: none;
     }
 
-    #main__index {
+    #main__index,
+    #main__proizvodi {
         flex-direction: column;
+        padding: 0 3rem;
     }
+
     .content1 {
         flex-direction: column;
     }
@@ -361,5 +364,9 @@ td {
     .content1 img,
     .content2 img {
         width: 85%;
+    }
+    .content__proizvodi{
+        width: 100%;
+        margin-bottom: 3rem;
     }
 }
