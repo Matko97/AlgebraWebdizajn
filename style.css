@@ -179,7 +179,7 @@ textarea {
 .contact__form form {
     width: 300px;
     display: grid;
-    gap: 10px;
+    gap: 10px; 
     margin: 0 auto;
     padding: 20px;
     background-color: #f2f2f2;
@@ -282,10 +282,10 @@ textarea {
 
 .cjenik__hero {
     background-image: url(./pictures/pexels-chait-goli-2666598.jpg);
-    background-size: contain;
-    max-width: 1200px;
+    background-size: cover;
     height: 500px;
     margin-bottom: 25px;
+    background-position: center bottom;
 }
 
 .main__table {
@@ -295,7 +295,7 @@ textarea {
 }
 
 table {
-    width: 700px;
+    width: 80%;
     height: 700px;
     border-collapse: collapse;
 }
@@ -365,8 +365,18 @@ td {
     .content2 img {
         width: 85%;
     }
-    .content__proizvodi{
+    .content__proizvodi {
         width: 100%;
         margin-bottom: 3rem;
+    }
+    .cjenik__hero {
+        display: none;
+    }
+
+    .contact__form {
+        flex-direction: column;
+        padding: 3rem 3rem;
+        gap: 50px;
+        margin-top: 0;
     }
 }
