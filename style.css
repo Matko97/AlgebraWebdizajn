@@ -136,7 +136,7 @@ header {
 }
 
 .content2 img {
-    width: 700px;
+    width: 60%;
     height: 600px;
     object-fit: contain;
 }
@@ -350,4 +350,4 @@ td {
     .content1 img, .content2 img {
         width:85%;
     }
-
+}
