@@ -27,6 +27,10 @@ html {
 }
 
 header {
+    background-color: #eee;
+}
+
+.header {
     max-width: 1200px;
     width: 100%;
     margin: 0 auto;
@@ -34,7 +38,6 @@ header {
     justify-content: space-between;
     align-items: center;
     padding: 15px;
-    /* background-color: #a3c6c4; */
 }
 
 .logo {
@@ -143,8 +146,9 @@ header {
 
 footer {
     text-align: center;
-    padding: 0 0 50px 0;
+    padding: 50px 0 50px 0;
     font-weight: 800;
+    background-color: #eee;
 }
 
 /* UREĐIVANJE KONTAKT.HTML */
@@ -347,7 +351,8 @@ td {
         margin-bottom: 5px;
     }
 
-    .content1 img, .content2 img {
-        width:85%;
+    .content1 img,
+    .content2 img {
+        width: 85%;
     }
 }
