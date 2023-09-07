@@ -179,7 +179,7 @@ textarea {
 .contact__form form {
     width: 300px;
     display: grid;
-    gap: 10px; 
+    gap: 10px;
     margin: 0 auto;
     padding: 20px;
     background-color: #f2f2f2;
@@ -214,7 +214,7 @@ textarea {
 }
 
 .contact__content img {
-    width: 500px;
+    width: 100%;
 }
 
 /* PROIZVODI I USLUGE STYLING  */
@@ -260,6 +260,9 @@ textarea {
     align-items: center;
     margin-top: 50px;
     text-align: center;
+}
+.katalog__section p {
+    text-align: justify;
 }
 .katalog__section img {
     width: 500px;
@@ -379,4 +382,9 @@ td {
         gap: 50px;
         margin-top: 0;
     }
+
+    .main__contact{
+        padding: 0 1rem;
+    }
+
 }
